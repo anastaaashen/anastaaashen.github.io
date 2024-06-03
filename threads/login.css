@@ -1,0 +1,13 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+
+#root {
+    background-color: chartreuse;
+    height: 100vh;
+    background-image: url("bg.webp");
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+}
