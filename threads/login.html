@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="login.css"></link>
+    <link rel="stylesheet" href="night-login.css"></link>
 </head>
 <body>
+    <script>
+        const theme=localStorage.getItem("theme")
+
+if (theme){
+document.body.classList.add(theme)
+}
+    </script>
     <div id="root"> 
         <div class="container">
             <div class="box">Как вы хотите использовать Threads?</div>
@@ -30,7 +38,10 @@
                 <p><a href="https://anastaaashen.github.io/threads/login">Сообщить о проблеме</a></p>
              </div>
         </div>
+        <button class="night-theme-btn" id="night-theme-btn">Night
+        </button>
     </div>
    <script src="login.js"></script>
+   <script src="night.js"></script>
 </body>
 </html>
