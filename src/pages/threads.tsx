@@ -2,6 +2,8 @@ import { useState } from "react";
 import { FooterLink } from "../footer-link";
 import iglogo from '../ig-logo-135.png';
 import './threads.css';
+import styles from './threads.module.css';
+import cn from 'classnames';
 
 const FOOTER_LINKS = [
     { url: 'https://anastaaashen.github.io/threads/login', label: '© 2024' },
@@ -20,8 +22,8 @@ export function Threads () {
     }
     
       return (
-        <div className={isNight ? 'root night-theme': 'root'}> 
-            <div className="container">
+        <div className={isNight ? cn(styles.root, styles.nightTheme): styles.root}> 
+            <div className={styles.container}>
                 <div className="box">Как вы хотите использовать Threads?</div>
                 <div className="box1" id="box-lol" onClick={() => alert('lol')}>
                     <div className="box-title">
