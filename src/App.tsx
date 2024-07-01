@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import iglogo from './ig-logo-135.png';
 import './App.css';
+import { FooterLink } from './footer-link';
+
 
 const FOOTER_LINKS = [
   { url: 'https://anastaaashen.github.io/threads/login', label: '© 2024' },
@@ -35,7 +37,7 @@ const handleClick = () => {
             </div>
             <div className="blok"> 
             {FOOTER_LINKS.map((footerLink) => (
-                <p><a href={footerLink.url}>{footerLink.label}</a></p> 
+                <FooterLink url={footerLink.url} label= {footerLink.label}></FooterLink>
               ))}
              </div>
         </div>
