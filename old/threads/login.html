@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css"></link>
+    <link rel="stylesheet" href="night-login.css"></link>
+</head>
+<body>
+    <script>
+        const theme=localStorage.getItem("theme")
+
+if (theme){
+document.body.classList.add(theme)
+}
+    </script>
+    <div id="root"> 
+        <div class="container">
+            <div class="box">Как вы хотите использовать Threads?</div>
+            <div class="box1" id="box-lol">
+                <div class="box-title">
+                    <div>Продолжить с аккаунтом Instagram</div>
+                    <img src="ig-logo-135.png" alt="иконка инстаграм">
+                </div>
+                <div class="mini">Войдите в профиль Threads или создайте его через аккаунт Instagram. Вы сможете публиковать контент в Threads и взаимодейтсвовать с ним.</div>
+            </div>
+            <div class="box1" id="box-kek">
+                <div class="box-title">Использовать без профиля</div>
+                <div class="mini">Вы можете пользоваться Threads без профиля, но тогда вы не сможете публиковать контент и взаимодейтсвовать с ним.</div>
+            </div>
+            <div class="blok"> 
+                <p><a href="https://anastaaashen.github.io/threads/login">© 2024</a></p> 
+                <p><a href="https://anastaaashen.github.io/threads/login">Условия Threads</a></p>
+                <p><a href="https://anastaaashen.github.io/threads/login">Политика конфиденциальности</a></p>
+                <p><a href="https://anastaaashen.github.io/threads/login">Политику в отношении файлов cookie</a></p>
+                <p><a href="https://anastaaashen.github.io/threads/login">Настройки файлов cookie</a></p>
+                <p><a href="https://anastaaashen.github.io/threads/login">Сообщить о проблеме</a></p>
+             </div>
+        </div>
+        <button class="night-theme-btn" id="night-theme-btn">Night
+        </button>
+    </div>
+   <script src="login.js"></script>
+   <script src="night.js"></script>
+</body>
+</html>
