@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FooterLink } from "../footer-link";
-import { Link } from "react-router-dom";
 import iglogo from '../ig-logo-135.png';
 import styles from './threads.module.css';
 import cn from 'classnames';
@@ -33,7 +32,7 @@ export function Threads () {
                     <div className={styles.mini}>Войдите в профиль Threads или создайте его через аккаунт Instagram. Вы сможете публиковать контент в Threads и взаимодейтсвовать с ним.</div>
                 </div>
                 <div className={styles.box1} >
-                <Link to="threads-home">Использовать без профиля</Link>
+                <div className={styles.boxTitle}>Использовать без профиля</div>
                     <div className={styles.mini}>Вы можете пользоваться Threads без профиля, но тогда вы не сможете публиковать контент и взаимодейтсвовать с ним.</div>
                 </div>
                 <div className={styles.blok}> 

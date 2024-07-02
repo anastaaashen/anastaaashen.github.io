@@ -8,7 +8,7 @@ import {
 } from "react-router-dom"; 
 import { Home } from './pages/home';
 import { Threads } from './pages/threads';
-import {ThreadsHome} from './pages/threads-home';
+import { ThreadsHome } from './pages/threads-home';
 
 const router = createHashRouter ([
   {
