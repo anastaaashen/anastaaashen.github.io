@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.dad2c492.css",
-    "main.js": "/static/js/main.5e8b63d7.js",
+    "main.css": "/static/css/main.5b672662.css",
+    "main.js": "/static/js/main.de9f3f65.js",
     "static/js/453.7a160fe4.chunk.js": "/static/js/453.7a160fe4.chunk.js",
+    "static/media/threads-logo.png": "/static/media/threads-logo.de537f7977392e3f63a1.png",
     "static/media/bg.webp": "/static/media/bg.c4b41b4da08828f83e8a.webp",
     "static/media/ig-logo-135.png": "/static/media/ig-logo-135.fc8b26ea9efd1aa847af.png",
+    "static/media/like.png": "/static/media/like.846b79fcbc6949df2ceb.png",
+    "static/media/human.png": "/static/media/human.5cdfd5220aa1731cfa3e.png",
+    "static/media/search.png": "/static/media/search.f8625530f28f5f5d0bfa.png",
+    "static/media/post.png": "/static/media/post.7f75639dafb95179683e.png",
+    "static/media/home.png": "/static/media/home.c9354c81a3c6458261eb.png",
+    "static/media/dots.svg": "/static/media/dots.61959f28cc2ebb2b0435d5c197701fb5.svg",
     "index.html": "/index.html",
-    "main.dad2c492.css.map": "/static/css/main.dad2c492.css.map",
-    "main.5e8b63d7.js.map": "/static/js/main.5e8b63d7.js.map",
+    "main.5b672662.css.map": "/static/css/main.5b672662.css.map",
+    "main.de9f3f65.js.map": "/static/js/main.de9f3f65.js.map",
     "453.7a160fe4.chunk.js.map": "/static/js/453.7a160fe4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad2c492.css",
-    "static/js/main.5e8b63d7.js"
+    "static/css/main.5b672662.css",
+    "static/js/main.de9f3f65.js"
   ]
 }
